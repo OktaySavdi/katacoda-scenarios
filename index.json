@@ -1,7 +1,6 @@
-  
 {
-  "title": "Bash Environment",
-  "description": "",
+  "title": "Kubernetes",
+  "description": "Multi node Kubernetes cluster configured using Kubeadm",
   "details": {
     "steps": [
       {
@@ -15,9 +14,9 @@
   },
   "environment": {
     "hideintro": true,
-    "uilayout": "terminal"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
