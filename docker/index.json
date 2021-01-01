@@ -18,6 +18,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "TBC"
+    "imageid": "ubuntu:2004"
   }
 }
