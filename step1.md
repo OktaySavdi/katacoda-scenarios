@@ -1,1 +1,0 @@
-You can get with `docker images`{{execute}}
