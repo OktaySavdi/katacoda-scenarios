@@ -2,6 +2,7 @@
   "title": "Kubernetes Playground",
   "description": "",
   "difficulty": "Beginner",
+  "icon": "fa-kubernetes",
   "time": "2 hour",
   "details": {
     "steps": [
