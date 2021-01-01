@@ -4,7 +4,7 @@
     "pathwayTitle": "Istio",
     "icon": "fa-istio",
     "time": "2 hours",
-    "title": "istio",
+    "title": "apply-traffic-management",
     "description": "",
     "authenticated": false,
     "details": {
