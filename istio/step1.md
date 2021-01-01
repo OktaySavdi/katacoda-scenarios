@@ -1,11 +1,13 @@
 #### Launch Cluster
 
-`launch.sh`{{execute}}
+get version `istioctl version`{{execute}}
 
 This will create a two node Kubernetes cluster using WeaveNet for networking.
 
 #### Health Check
 
-`
-kubectl cluster-info
-`{{execute}}
+`istioctl proxy-status`{{execute}}
+
+or
+
+`istioctl analyze`{{execute}}
