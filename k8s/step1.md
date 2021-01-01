@@ -1,3 +1,7 @@
-This environment has a launch.sh{{execute}}
+With this environment the Kubernetes nodes are not configured. If you want to configure the nodes then you'd need to run `kubeadm` which has been set and configured. For example, for following command will initialise the master with the latest version installed.
 
-You can get with kubectl get nodes{{execute}}
+`kubeadm init --kubernetes-version $(kubeadm version -o short)`{{execute HOST1}}
+
+Copy the command from the `kubeadm init` output starting with `kubeadm join`
+
+Run this on the second node, this will automatically add the node. Verify with `kubectl get nodes`{{execute}}
