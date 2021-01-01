@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes",
-  "description": "Multi node Kubernetes cluster",
+  "description": "Kubernetes Playground",
   "details": {
     "steps": [
       {
