@@ -1,5 +1,5 @@
 #/bin/bash
-sleep 5
+sleep 7
 echo "########### install istioctl ###########"
 curl -sL https://istio.io/downloadIstioctl | sh -
 export PATH=$PATH:$HOME/.istioctl/bin
