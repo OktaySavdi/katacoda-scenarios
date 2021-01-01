@@ -2,6 +2,7 @@
   "title": "Docker Playground",
   "description": "",
   "difficulty": "Beginner",
+  "icon": "fa-docker",
   "time": "2 hours",
   "details": {
     "steps": [
