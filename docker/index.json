@@ -1,0 +1,23 @@
+{
+  "title": "Docker Playground",
+  "description": "Docker Playground",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "TBC"
+  }
+}
