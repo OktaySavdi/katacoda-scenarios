@@ -1,45 +1,26 @@
 {
-    "id": "apply-traffic-management",
-    "pathwayId": "istio",
-    "pathwayTitle": "Istio",
-    "icon": "fa-istio",
-    "time": "2 hours",
-    "title": "apply-traffic-management",
-    "description": "",
-    "authenticated": false,
-    "details": {
-        "steps": [
-            {
-                "title": "Launch Kubernetes Cluster",
-                "code": "set-env.sh",
-                "text": "step1.md"
-            }
-        ],
-        "intro": {
-            "text": "intro.md",
-            "courseData": "courseBase.sh",
-            "credits": ""
-        },
-        "finish": {
-            "text": "finish.md"
-        }
-    },
-    "files": [
-        "app.js"
+  "title": "istio Playground",
+  "description": "",
+  "difficulty": "Beginner",
+  "icon": "fa-istio",
+  "time": "2 hour",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "code": "courseBase.sh",
+        "text": "step1.md"
+      }
     ],
-    "environment": {
-        "showdashboard": true,
-        "dashboard": "Dashboard",
-        "uilayout": "terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
-        "uidependencies": [
-            "/socket.io/socket.io.js",
-            "/javascripts/term.js",
-            "/javascripts/terminal-application.js"
-        ]
-    },
-    "backend": {
-        "port": 8080,
-        "dockerimage": "kubeadm-cluster2-running"
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
 }
