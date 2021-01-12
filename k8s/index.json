@@ -15,9 +15,9 @@
     ],
     "assets": {
             "host01": [
-                {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+                {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"},
             ]
-     }    
+        }   
   },
   "environment": {
     "hideintro": true,
