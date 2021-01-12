@@ -13,6 +13,11 @@
         "text": "step1.md"
       }
     ],
+    "assets": {
+            "host01": [
+                {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+     },    
     "finish": {
       "text": "finish.md"
     }
