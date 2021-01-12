@@ -8,6 +8,7 @@
     "steps": [
       {
         "title": "Step 1",
+        "code": "status.sh",
         "text": "step1.md"
       }
     ],
