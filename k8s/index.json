@@ -18,9 +18,6 @@
                 {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
      }    
-    "finish": {
-      "text": "finish.md"
-    }
   },
   "environment": {
     "hideintro": true,
