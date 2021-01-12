@@ -1,3 +1,4 @@
+#!/bin/bash
 status=0
 i=0
 while [[ $status != 2 ]]
