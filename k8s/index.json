@@ -9,7 +9,7 @@
             "host01": [
                 {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
-        }
+        },
     "steps": [
       {
         "title": "Step 1",
