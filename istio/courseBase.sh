@@ -14,7 +14,7 @@ while [[ $status != 2 ]]
         fi        
 done
 
-echo "✓ Cluster Running"
+echo "Cluster Running"
 sleep 7
 echo "Install istioctl"
 curl -sL https://istio.io/downloadIstioctl | sh -
