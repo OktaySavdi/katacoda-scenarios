@@ -5,6 +5,11 @@
   "icon": "fa-kubernetes",
   "time": "2 hour",
   "details": {
+    "assets": {
+            "host01": [
+                {"file": "status.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+        }
     "steps": [
       {
         "title": "Step 1",
