@@ -18,8 +18,7 @@ echo "✓ Cluster Running"
 sleep 7
 echo "Install istioctl"
 curl -sL https://istio.io/downloadIstioctl | sh -
-export PATH=$PATH:$HOME/.istioctl/bin
-source ~/istioctl.bash
+cp -rf .istioctl/bin/istioctl {/usr/bin/,/usr/local/sbin,/usr/local/bin}
 echo "Install istio"
 curl -L https://istio.io/downloadIstio | sh -
 cd istio-1.8.1
