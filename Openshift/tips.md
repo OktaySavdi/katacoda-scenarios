@@ -29,6 +29,8 @@ To login to the OpenShift cluster from the _Terminal_ run:
 
 ``oc login -u developer -p developer``{{execute}}
 
+``oc login -u admin -p admin``{{execute}}
+
 This will log you in using the credentials:
 
 * **Username:** ``developer``
