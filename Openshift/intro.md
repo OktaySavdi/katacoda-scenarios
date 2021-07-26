@@ -5,7 +5,7 @@ Explore OpenShift version 4.7.
 ## Concepts
 
 * OpenShift Web Console
-*`oc` command line tool
+* `oc` command line tool
 * OpenShift Projects and Applications
 * Your applications on OpenShift
 
