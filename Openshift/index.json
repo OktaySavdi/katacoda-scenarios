@@ -1,12 +1,12 @@
 {
   "icon": "fa-openshift",
-  "title": "Playground (OpenShift 4.8)",
+  "title": "Playground (OpenShift 4.9)",
   "description": "",
   "pathwayTitle": "OpenShift",
   "difficulty": "beginner",
   "time": "2 hours",
   "backend": {
-      "imageid": "openshift-4-8"
+      "imageid": "openshift-4-9"
   },
   "environment": {
       "showdashboard": true,
