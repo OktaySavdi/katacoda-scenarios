@@ -1,6 +1,6 @@
 ## Goal
 
-Explore OpenShift version 4.7.
+Explore OpenShift version 4.9.
 
 ## Concepts
 
