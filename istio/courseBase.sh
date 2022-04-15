@@ -21,6 +21,6 @@ curl -sL https://istio.io/downloadIstioctl | sh -
 cp -rf .istioctl/bin/istioctl {/usr/bin/,/usr/local/sbin,/usr/local/bin}
 echo "Install istio"
 curl -L https://istio.io/downloadIstio | sh -
-cd istio-1.8.1
+cd istio-1.13.2
 istioctl install --set profile=demo -y
 kubectl label namespace default istio-injection=enabled
