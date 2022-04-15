@@ -24,3 +24,5 @@ curl -L https://istio.io/downloadIstio | sh -
 cd istio-1.13.2
 istioctl install --set profile=default -y
 kubectl apply -f samples/addons
+kubectl -n istio-system patch svc istio-ingressgateway -p '{"spec":{"type":"NodePort"}}'
+kubectl -n istio-system patch svc kiali -p '{"spec":{"type":"NodePort"}}'
