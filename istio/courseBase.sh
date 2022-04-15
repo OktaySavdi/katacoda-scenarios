@@ -22,5 +22,5 @@ cp -rf .istioctl/bin/istioctl {/usr/bin/,/usr/local/sbin,/usr/local/bin}
 echo "Install istio"
 curl -L https://istio.io/downloadIstio | sh -
 cd istio-1.13.2
-istioctl install --set profile=demo -y
-kubectl label namespace default istio-injection=enabled
+istioctl install --set profile=default -y
+kubectl apply -f samples/addons
