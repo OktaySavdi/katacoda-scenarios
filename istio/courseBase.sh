@@ -21,8 +21,12 @@ curl -sL https://istio.io/downloadIstioctl | sh -
 cp -rf .istioctl/bin/istioctl {/usr/bin/,/usr/local/sbin,/usr/local/bin}
 echo "Install istio"
 curl -L https://istio.io/downloadIstio | sh -
-cd istio-1.13.2
+dir=$(ls | tail -n 1)
+cd $dir
 istioctl install --set profile=default -y
 kubectl apply -f samples/addons
 kubectl -n istio-system patch svc istio-ingressgateway -p '{"spec":{"type":"NodePort"}}'
 kubectl -n istio-system patch svc kiali -p '{"spec":{"type":"NodePort"}}'
+kubectl -n istio-system patch svc grafana -p '{"spec":{"type":"NodePort"}}'
+kubectl -n istio-system patch svc prometheus -p '{"spec":{"type":"NodePort"}}'
+kubectl -n istio-system patch svc tracing -p '{"spec":{"type":"NodePort"}}'
