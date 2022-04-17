@@ -8,8 +8,6 @@
     "steps": [
       {
         "title": "Step 1",
-        "courseData": "status.sh",
-        "code": "status.sh",
         "text": "step1.md"
       }
     ],
